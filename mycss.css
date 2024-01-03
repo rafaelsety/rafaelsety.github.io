@@ -1,0 +1,26 @@
+.profile {
+    margin-top: 10rem;
+}
+
+.padingan {
+    margin-bottom: 12rem;
+}
+
+.txt-justify {
+    text-align: justify;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-card {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .txt-justify {
+        text-align: justify;
+        width: max-content;
+        padding: 2rem;
+    }
+}
