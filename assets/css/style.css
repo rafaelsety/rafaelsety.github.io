@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #b1b88d;
+  color: #998db8;
   text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b1b88d;
+  color: #6a65b1;
 }
 
 .navbar .dropdown ul {
@@ -208,7 +208,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #cc9696;
+  color: #8d8ac7;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -268,7 +268,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b1b88d;
+  color: #6a65b1;
   ;
 }
 
@@ -886,7 +886,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  border-color: #b1b88d;
+  border-color: #6a65b1;
 }
 
 .portfolio .portfolio-item {
@@ -1320,7 +1320,8 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 0 0;
+  border-top: 0.5px solid rgb(214, 214, 214);
 }
 
 #footer .social-links {
@@ -1328,12 +1329,13 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 35px;
   display: inline-block;
-  color: #b1b88d;
+  /* background-color: #424040; */
+  color: #424040;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 3px 0;
+  margin: 28px 28px 0 0;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1342,7 +1344,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  color: #818668;
+  color: #888888;
   text-decoration: none;
 }
 
