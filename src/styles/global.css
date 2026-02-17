@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;500;700;900&display=swap');
+
+:root {
+  /* Brand Colors - Oatside + Gumball Inspired */
+  --color-navy: #0A192F;
+  --color-yellow: #FFF291;
+  --color-pastel-blue: #E3F2FD;
+  --color-pastel-pink: #FCE4EC;
+  --color-white: #FFFFFF;
+  --color-text: var(--color-navy);
+  --color-bg: var(--color-white);
+
+  /* Design Tokens - Consistency Scale */
+  --font-serif: 'DM Serif Display', serif;
+  --font-sans: 'Outfit', sans-serif;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
+
+  --border-width: 2px;
+  --border-radius-sm: 12px;
+  --border-radius-md: 20px;
+  --border-radius-lg: 32px;
+
+  --shadow-sticker: 4px 4px 0px var(--color-navy);
+  --shadow-subtle: 2px 2px 0px var(--color-navy);
+
+  --transition-smooth: all 0.2s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: #FAFAFA;
+  /* Very light neutral */
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+}
+
+.sticker {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: var(--color-yellow);
+  border: var(--border-width) solid var(--color-navy);
+  border-radius: 99px;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 0.8rem;
+  box-shadow: 3px 3px 0 var(--color-navy);
+  transform: rotate(-2deg);
+}
+
+.app-main {
+  padding: var(--space-sm) var(--space-md);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-navy);
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}

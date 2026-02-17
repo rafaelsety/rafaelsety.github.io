@@ -1,0 +1,96 @@
+.contact-section {
+    padding: var(--space-lg) 0;
+    text-align: center;
+}
+
+.contact-card {
+    background: white;
+    border: var(--border-width) solid var(--color-navy);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-lg) var(--space-md);
+    box-shadow: var(--shadow-sticker);
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    transition: var(--transition-smooth);
+}
+
+.contact-sticker {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-3deg);
+    background: var(--color-yellow);
+    border: var(--border-width) solid var(--color-navy);
+    padding: 5px 20px;
+    border-radius: 99px;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-sm);
+}
+
+.contact-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: var(--space-md);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: var(--border-width) solid var(--color-navy);
+    border-radius: 99px;
+    font-weight: 700;
+    color: var(--color-navy);
+    transition: var(--transition-smooth);
+}
+
+.social-btn.linkedin:hover {
+    background: #0077B5;
+    color: white;
+}
+
+.social-btn.github:hover {
+    background: #333;
+    color: white;
+}
+
+.social-btn.instagram:hover {
+    background: #E4405F;
+    color: white;
+}
+
+.email-link {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--color-navy);
+    text-decoration: none;
+    margin-top: var(--space-sm);
+    border-bottom: 2px solid var(--color-yellow);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.compact-footer {
+    margin-top: var(--space-lg);
+    padding-bottom: var(--space-md);
+    opacity: 0.6;
+    font-size: 0.8rem;
+}

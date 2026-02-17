@@ -1,0 +1,48 @@
+.hobby-section {
+    padding: var(--space-lg) 0;
+    background-color: var(--color-pastel-pink);
+    margin: var(--space-lg) calc(var(--space-md) * -1);
+    /* Full width effect */
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+}
+
+.hobby-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hobby-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: var(--space-xs);
+}
+
+.hobby-title {
+    font-size: 2rem;
+    margin-bottom: var(--space-sm);
+}
+
+.hobby-text {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto var(--space-md);
+}
+
+.hobby-sketch-box {
+    background: white;
+    border: 2px dashed var(--color-navy);
+    border-radius: var(--border-radius-md);
+    padding: var(--space-md);
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.sketch-icon {
+    font-size: 2rem;
+}
